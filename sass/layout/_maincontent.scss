@@ -1,0 +1,228 @@
+.main-content {
+    background-color: $color-gray-2;
+    // padding: 2.2rem 4rem;
+    padding: 2.2rem 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .search-input {
+        width: 50%;
+        background-color: $color-gray-3;
+        border: 0;
+        border-radius: .8rem;
+        padding: .7rem;
+    }
+
+    .dark-mode {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 1rem;
+
+        #light {
+            display: flex;
+            justify-self: flex-end;
+        }
+
+        &--toggle {
+            
+            input[type=checkbox]{
+                height: 0;
+                width: 0;
+                visibility: hidden;
+
+                &:checked + .toggle-label {
+                    background: #535353;
+                }
+                
+                &:checked + .toggle-label:after {
+                    left: calc(100% - 5px);
+                    transform: translateX(-100%);
+                }
+            }
+
+            .toggle-label {
+                cursor: pointer;
+                text-indent: -9999px;
+                width: 52px;
+                height: 27px;
+                background: #535353;
+                float: right;
+                border-radius: 100px;
+                position: relative;
+                
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 3px;
+                    left: 3px;
+                    width: 20px;
+                    height: 20px;
+                    background: #F1F1F1;
+                    border-radius: 90px;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    margin-top: 2rem;
+    width: 100%;
+
+    &-banner {
+        margin: 1rem 0;
+        background-color: $color-primary;
+        padding: 2.5rem;
+        border-radius: 1rem;
+        display: grid;
+        grid-template-columns: 60% auto;
+
+        &--description {
+            margin-top: 1rem;
+        }   
+
+        &--img {
+            width: 100%;
+        }
+
+        &--btn {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: $color-white-2;
+            width: 30%;
+            border-radius: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+.journeys {
+    margin-top: 4rem;
+
+    &-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        margin-top: $title-card-margin;
+    }
+
+    
+    .journey {
+        background-color: $color-gray-3;
+        padding: 1.8rem;
+        border-radius: 1rem;
+
+        &--description {
+            display: flex;
+            flex-direction: column;
+            margin: .5rem 0 1.5rem 0;
+
+            & span {
+                margin: .2rem 0;
+            }
+        }
+
+        &--btn {
+            padding: .5rem;
+            width: 100%;
+            text-align: center;
+            background-color: $color-primary;
+            border-radius: 1rem;
+
+        }
+    }
+}
+
+.last-content {
+    margin: 6rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+    .statistics {
+
+        &-container {
+            margin-top: $title-card-margin;
+            height: 100%;
+
+            .statistic {
+                height: 90%;
+                background-color: $color-gray-3;
+                display: flex;
+                justify-content: center;
+                gap: 4rem;
+                align-items: center;
+                border-radius: 1rem;
+
+            
+                &-text {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    gap: 2rem;
+                }
+            
+                &-desc {
+                    margin: 2rem 0;
+                    display: flex;
+                    &--color {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+
+                        &---completed {
+                            background-color: #2F2F2F;
+                        }
+
+                        &---progress {
+                            background-color: #3C3C3C;
+                        }
+                    }
+            
+                    &--description {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: .5rem;
+                    }
+                }
+            
+            }
+        }
+    }
+
+    .courses {
+
+        .course-container {
+            margin-top: $title-card-margin;
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            gap: 1rem;
+
+            .course {
+                border-radius: 1rem;
+                width: 100%;
+                background-color: $color-gray-3;
+                padding: 1.2rem;
+                display: grid;
+                grid-template-columns: 10% auto 10%;
+                gap: 1rem;
+
+                &-text--desc {
+                    margin-top: .2rem;
+                }
+
+                .arrow-right {
+                    cursor: pointer;
+                    display: flex;
+                    justify-self: flex-end;
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+}

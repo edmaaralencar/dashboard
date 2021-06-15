@@ -1,0 +1,120 @@
+.side-content {
+    background-color: $color-gray-3;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 35% auto;
+
+    &-perfil {
+        display: grid;
+        grid-template-columns: 10% auto 20%;
+        align-items: center;
+
+        &--img {
+            width: 100%;
+            border-radius: 1rem;
+        }
+
+        &--name {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.calendars {
+    margin: 2.5rem 0;
+}
+
+.calendar {
+    width: 100%;
+    background-color: $color-gray-1;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    margin-top: $title-card-margin;
+  
+    .month {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        }
+
+    .date {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    
+    }
+  
+    .weekdays {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 1rem 0;
+
+        & div {
+            font-size: .9rem;
+            font-weight: bold;
+            display: grid;
+        }
+    }
+
+    .days {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    
+        & div {
+            font-size: .9rem;
+            padding: .7rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 3rem;    
+        }
+    }
+
+    .prev-date,
+    .next-date {
+        opacity: 0.5;
+    }
+  
+    .today {
+        background-color: $color-primary;
+    }
+}
+
+.classes {
+    &-container {
+        margin-top: $title-card-margin;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
+
+        .class {
+            background-color: $color-gray-1;
+            display: grid;
+            grid-template-columns: 10% auto;
+            align-items: center;
+            gap: 3rem;
+            border-radius: 1rem;
+            padding: .5rem;
+
+            &-img {
+                padding: 1.2rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+  
+  

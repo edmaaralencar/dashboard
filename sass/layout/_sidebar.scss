@@ -1,0 +1,47 @@
+.sidebar {
+    background-color: $color-gray-1;
+    width: $sidebar-size-default;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    z-index: 1; 
+    transition: all .5s;
+
+    &-container {
+        height: 100%;
+    }
+
+    &.active {
+        width: $sidebar-size-active;
+    }
+
+    &-link {
+        padding: .9rem 0;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            background: #252526;
+        }
+    }
+
+    .icon {
+        padding-left: 2rem;
+        text-align: left;
+    }
+    .title {
+        margin-left: 2.2rem;
+    }
+}
+
+#sidebar-link--menu {
+    padding: 2.5rem 0;
+    cursor: pointer;
+    &:hover {
+        background: transparent;
+    }
+}
+
+#sidebar-link-settings {
+    margin-top: 2.5rem;
+}

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-main {
+    display: flex;
+    position: relative;
+}

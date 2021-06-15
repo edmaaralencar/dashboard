@@ -20,7 +20,7 @@
 Este repositório contêm a aplicação Dashboard do curso fictício ELearn.
 
 A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end e UI Design, apresentando os principais dados do curso ELearn, como trilhas, aulas em progresso, calendário, um banner e novas aulas. 
-<br />
+&nbsp;
 O objetivo principal foi trabalhar com organização e distribuição de elementos na interface e UI Design.
 
 ## :hammer: Tecnologias
@@ -31,7 +31,9 @@ Este projeto foi feito com as seguintes tecnologias:
 - Javascript
 
 Feito por Edmar Alencar. 
-[Entre em contato]
+&nbsp;
+[Entre em contato!](https://www.linkedin.com/feed/)
+
 
 
 <!-- 

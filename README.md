@@ -11,7 +11,11 @@
 
 
 
-<h2 align="left">📖 Sobre<h2>
+## 📖 Sobre
+Este repositório contêm a aplicação Dashboard do curso fictício ELearn.
+
+A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end e UI Design, apresentando os principais dados do curso ELearn.
+O objetivo principal foi trabalhar com organização e distribuição de elementos na interface e UI Design.
 
 <!-- 
  min-width="400px" max-width="400px" 

@@ -30,9 +30,7 @@ Este projeto foi feito com as seguintes tecnologias:
 - Sass
 - Javascript
 
-Feito por Edmar Alencar. 
-&nbsp;
-[Entre em contato!](https://www.linkedin.com/feed/)
+Feito por Edmar Alencar. [Entre em contato!](https://www.linkedin.com/feed/)
 
 
 

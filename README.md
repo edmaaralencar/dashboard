@@ -18,6 +18,14 @@ A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end 
 <br />
 O objetivo principal foi trabalhar com organização e distribuição de elementos na interface e UI Design.
 
+## ⛏ Tecnologias
+Este projeto foi feito com as seguintes tecnologias:
+- HTML
+- CSS
+- Sass
+- Javascript
+
+
 <!-- 
  min-width="400px" max-width="400px" 
 -->

@@ -1,10 +1,12 @@
 <h1 align="center">Dashboard</h1>
 
 <p align="center">
-  <a href="#open_book-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#hammer-iniciando-mobile">Tecnologias</a>
+  <a href="#open_book-sobre">Sobre</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#books-requisitos">Autor</a>&nbsp;&nbsp;&nbsp;
+  <a href="#hammer-tecnologias">Tecnologias</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-requisitos">Autor</a>
+  &nbsp;&nbsp;&nbsp;
 </p>
 
 <h1 align="center">
@@ -21,7 +23,7 @@ A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end 
 <br /> 📖
 O objetivo principal foi trabalhar com organização e distribuição de elementos na interface e UI Design.
 
-##⛏ Tecnologias
+## :hammer: Tecnologias
 Este projeto foi feito com as seguintes tecnologias:
 - HTML
 - CSS

@@ -1,7 +1,7 @@
 <h1 align="center">Dashboard</h1>
 
 <p align="center">
-  <a href="##📖-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#:book:-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-iniciando-mobile">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Autor</a>&nbsp;&nbsp;&nbsp;
@@ -18,7 +18,7 @@
 Este repositório contêm a aplicação Dashboard do curso fictício ELearn.
 
 A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end e UI Design, apresentando os principais dados do curso ELearn. 
-<br />
+<br /> 📖
 O objetivo principal foi trabalhar com organização e distribuição de elementos na interface e UI Design.
 
 ##⛏ Tecnologias

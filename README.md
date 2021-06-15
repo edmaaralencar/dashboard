@@ -7,7 +7,10 @@
   <a href="#books-requisitos">Autor</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-<img src="https://user-images.githubusercontent.com/76753377/122117103-d7265b80-cdfc-11eb-95db-1aa3ac893928.png" width="100%" align="center" alt="Computador">
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/76753377/122117103-d7265b80-cdfc-11eb-95db-1aa3ac893928.png" width="100%" alt="Computador">
+</h1>
+
 
 
 

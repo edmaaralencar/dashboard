@@ -14,7 +14,7 @@
 
 
 
-<h2>:open_book:  Sobre</h2>
+## :open_book:  Sobre
 Este repositório contêm a aplicação Dashboard do curso fictício ELearn.
 
 A Dashboard foi criada para fins didáticos, com o intuito de treinar Front-end e UI Design, apresentando os principais dados do curso ELearn. 

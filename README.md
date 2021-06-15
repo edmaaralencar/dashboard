@@ -4,8 +4,6 @@
   <a href="#open_book-sobre">Sobre</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-tecnologias">Tecnologias</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#books-requisitos">Autor</a>
   &nbsp;&nbsp;&nbsp;
 </p>
 

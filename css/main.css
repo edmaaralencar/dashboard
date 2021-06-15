@@ -22,6 +22,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  min-height: 100vh;
 }
 
 body {
@@ -93,7 +94,7 @@ body {
 .journey--title {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #F2F2F2;
+  color: #F4F4F4;
 }
 
 .journey--description {
@@ -150,10 +151,10 @@ body {
 
 .sidebar {
   background-color: #1A1A1A;
+  position: fixed;
   width: 78px;
   overflow: hidden;
-  height: 100vh;
-  position: fixed;
+  height: 100%;
   z-index: 1;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -207,7 +208,7 @@ body {
   width: calc(100% - 78px);
   right: 0;
   position: absolute;
-  height: 100vh;
+  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 75% auto;
@@ -458,8 +459,11 @@ body {
   padding: 1.2rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 10% auto 10%;
-      grid-template-columns: 10% auto 10%;
+  -ms-grid-columns: 15% auto 10%;
+      grid-template-columns: 15% auto 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1rem;
 }
 
@@ -557,7 +561,6 @@ body {
 }
 
 .calendar .weekdays {
-  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[7];
@@ -567,13 +570,11 @@ body {
 
 .calendar .weekdays div {
   font-size: .9rem;
+  padding: .8rem;
   font-weight: bold;
-  display: -ms-grid;
-  display: grid;
 }
 
 .calendar .days {
-  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[7];
@@ -581,17 +582,9 @@ body {
 }
 
 .calendar .days div {
+  text-align: center;
   font-size: .9rem;
-  padding: .7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  padding: .8rem;
   border-radius: 3rem;
 }
 
@@ -617,18 +610,18 @@ body {
   background-color: #1A1A1A;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 10% auto;
-      grid-template-columns: 10% auto;
+  -ms-grid-columns: 20% auto;
+      grid-template-columns: 20% auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
   border-radius: 1rem;
-  padding: .5rem;
+  padding: 1.3rem;
 }
 
-.classes-container .class-img {
-  padding: 1.2rem;
-  width: 100%;
+.classes-container .class-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

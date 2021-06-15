@@ -42,7 +42,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 1rem 0;
-        }
+    }
 
     .date {
         display: grid;
@@ -53,29 +53,25 @@
     }
   
     .weekdays {
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         padding: 1rem 0;
 
         & div {
             font-size: .9rem;
+            padding: .8rem;
             font-weight: bold;
-            display: grid;
         }
     }
 
     .days {
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
     
         & div {
+            text-align: center;
             font-size: .9rem;
-            padding: .7rem;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
+            padding: .8rem;
             border-radius: 3rem;    
         }
     }
@@ -100,15 +96,17 @@
         .class {
             background-color: $color-gray-1;
             display: grid;
-            grid-template-columns: 10% auto;
+            grid-template-columns: 20% auto;
             align-items: center;
-            gap: 3rem;
+            gap: 1.5rem;
             border-radius: 1rem;
-            padding: .5rem;
+            padding: 1.3rem;
 
             &-img {
-                padding: 1.2rem;
-                width: 100%;
+
+                & img {
+                    object-fit: cover;
+                }
             }
         }
     }

@@ -1,9 +1,9 @@
 .sidebar {
     background-color: $color-gray-1;
+    position: fixed;
     width: $sidebar-size-default;
     overflow: hidden;
-    height: 100vh;
-    position: fixed;
+    height: 100%;
     z-index: 1; 
     transition: all .5s;
 

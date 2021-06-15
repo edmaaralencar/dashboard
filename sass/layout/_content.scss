@@ -2,7 +2,7 @@
     width: calc(100% - #{$sidebar-size-default});
     right: 0;
     position: absolute;
-    height: 100vh;
+    height: 100%;
 
     display: grid;
     grid-template-columns: 75% auto;

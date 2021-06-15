@@ -1,7 +1,7 @@
 <h1 align="center">Dashboard</h1>
 
 <p align="center">
-  <a href="#📖-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##📖-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-iniciando-mobile">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Autor</a>&nbsp;&nbsp;&nbsp;

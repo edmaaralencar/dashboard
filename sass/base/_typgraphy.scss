@@ -126,3 +126,22 @@ body {
         font-weight: lighter;
     }
 }
+
+@media screen and (max-width: 1110px) {
+    .date-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .class-text--project {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .date-text {
+        font-size: 1rem;
+    }
+}

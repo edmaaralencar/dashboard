@@ -5,5 +5,18 @@
     height: 100%;
 
     display: grid;
-    grid-template-columns: 75% auto;
+    grid-template-columns: 70% 30%;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        grid-template-columns: 60% 40%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
 }

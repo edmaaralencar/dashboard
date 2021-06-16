@@ -56,10 +56,9 @@
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         padding: 1rem 0;
-
+        text-align: center;
         & div {
             font-size: .9rem;
-            padding: .8rem;
             font-weight: bold;
         }
     }
@@ -67,9 +66,8 @@
     .days {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-    
+        text-align: center;
         & div {
-            text-align: center;
             font-size: .9rem;
             padding: .8rem;
             border-radius: 3rem;    
@@ -101,18 +99,89 @@
             gap: 1.5rem;
             border-radius: 1rem;
             padding: 1.3rem;
+        }
+    }
+}
 
-            &-img {
+@media screen and (max-width: 1300px) {
+    .calendar .days div {
+        padding: .5rem;
+    }
 
-                & img {
-                    object-fit: cover;
-                }
+    .classes-container {
+        .class {
+
+            &-img img {
+                width: 100%;
             }
         }
     }
 }
 
+@media screen and (max-width: 1110px) {
+    .side-content {
+        padding: 4rem;
 
+        .calendar {
+            padding: 5rem;
 
-  
+            .prev,
+            .next {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+
+            .weekdays {
+                margin: 2rem 0;
+            }
+
+            & .weekdays div {
+                font-size: 1.3rem;
+            }
+
+            & .days div {
+                font-size: 1.3rem;
+                padding: 1rem;
+            }
+        }
+
+        .classes {
+            &-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+        }
+    }
+
+    .profile {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .side-content {
+        .calendar {
+            padding: 2rem;
+            & .weekdays {
+                div { 
+                    font-size: .8rem;
+                }
+            }
+            & .days { 
+                div {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+    .classes {
+        .classes-container {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+// 835
   

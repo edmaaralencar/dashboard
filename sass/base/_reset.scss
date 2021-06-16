@@ -21,3 +21,9 @@ ul {
     position: relative;
     min-height: 100vh;
 }
+
+@media screen and (max-width: 1010px) {
+    html {
+        font-size: 100%;
+    }
+}

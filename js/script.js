@@ -90,3 +90,10 @@ document.querySelector(".next").addEventListener("click", () => {
 });
 
 renderCalendar();
+
+const cursos = document.querySelector('.cursos');
+const content = document.querySelector('.content');
+
+cursos.addEventListener('click', () => {
+    content.style.display = "none";
+})

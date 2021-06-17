@@ -145,3 +145,39 @@ body {
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 490px) {
+
+    .hero-text {
+        &--heading {
+            font-size: 1rem;
+        }
+
+        &--span {
+            font-size: 1.5rem;
+        }
+    }
+
+    .hero-banner {
+        &--title {
+            font-size: 1rem;
+        }
+
+        &--description {
+            font-size: .7rem;
+        }
+    }
+
+    .course-text {
+        &--name {
+            font-size: 1.2rem;
+        }
+    }
+
+    .class-text {
+        &--project {
+            font-size: .9rem;
+        } 
+    }
+    
+}

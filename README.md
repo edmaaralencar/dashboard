@@ -28,6 +28,12 @@ Este projeto foi feito com as seguintes tecnologias:
 - Sass
 - Javascript
 
+<p align="center">
+  <a href="https://practical-perlman-291904.netlify.app/" target="_blank">
+    <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
+  </a>
+</p>
+
 Feito por Edmar Alencar. [Entre em contato!](https://www.linkedin.com/feed/)
 
 
